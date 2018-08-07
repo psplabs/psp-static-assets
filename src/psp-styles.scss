@@ -1,4 +1,4 @@
-@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '~bulma/sass/utilities/_all.sass';
 
 $primary: hsl(222, 64%, 29%);
 $primary2: hsl(213, 50%, 23%);
@@ -72,8 +72,8 @@ $link-focus-border: $link;
 
 $navbar-height: 4.25rem;
 
-@import '../node_modules/bulma/sass/base/_all';
-@import '../node_modules/bulma/sass/elements/_all';
-@import '../node_modules/bulma/sass/components/_all';
-@import '../node_modules/bulma/sass/grid/_all';
-@import '../node_modules/bulma/sass/layout/_all';
+@import '~bulma/sass/base/_all';
+@import '~bulma/sass/elements/_all';
+@import '~bulma/sass/components/_all';
+@import '~bulma/sass/grid/_all';
+@import '~bulma/sass/layout/_all';
