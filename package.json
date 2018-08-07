@@ -1,6 +1,6 @@
 {
   "name": "psp-styles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Perspectives official stylesheets, based on bulma.",
   "main": "src/psp-styles.sass",
   "scripts": {
