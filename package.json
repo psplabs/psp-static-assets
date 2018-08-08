@@ -4,9 +4,7 @@
   "description": "Perspectives official stylesheets, based on bulma.",
   "main": "src/psp-styles.sass",
   "scripts": {
-    "build": "node-sass --include-path=node_modules --omit-source-map-url src/psp-styles.scss dist/psp-styles.css",
-    "watch": "npm run build -- --watch",
-    "start": "npm run watch"
+    "build": "cp -R src/* dist/"
   },
   "author": "",
   "license": "ISC",

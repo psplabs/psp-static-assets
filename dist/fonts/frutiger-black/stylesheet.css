@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FrutigerBlack';
+    src: url('FrutigerBlack.eot');
+    src: url('FrutigerBlack.eot?#iefix') format('embedded-opentype'),
+        url('FrutigerBlack.woff2') format('woff2'),
+        url('FrutigerBlack.woff') format('woff'),
+        url('FrutigerBlack.ttf') format('truetype'),
+        url('FrutigerBlack.svg#FrutigerBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
