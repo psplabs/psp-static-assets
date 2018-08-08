@@ -1,15 +1,18 @@
 {
-  "name": "psp-styles",
+  "name": "psp-static-assets",
   "version": "0.0.2",
-  "description": "Perspectives official stylesheets, based on bulma.",
+  "description": "Perspectives official stylesheets, imaages, and other static assets.",
   "main": "src/psp-styles.sass",
   "scripts": {
-    "build": "cp -R src/* dist/"
+    "build": "cp -Rf src/* dist/",
+    "deploy": "npm run build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.7.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
