@@ -4,15 +4,14 @@
   "description": "Perspectives official stylesheets, imaages, and other static assets.",
   "main": "src/psp-styles.sass",
   "scripts": {
-    "build": "cp -Rf src/* dist/",
-    "deploy": "npm run build"
+    "build": "cp -Rf src/* dist/ && docker build -t pspusa/static .",
+    "dev": "npm run build && npm run start",
+    "start": "docker run --rm -p 3001:2015 --name static pspusa/static"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.7.1"
   },
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+  "devDependencies": {}
 }

@@ -1,0 +1,6 @@
+:80 :443 :2015
+tls off
+git https://github.com/psplabs/psp-static-assets /app/files
+
+root /app/files/dist
+browse

@@ -1,3 +1,4 @@
+// Official PSP Styles page
 @import '~bulma/sass/utilities/_all.sass';
 
 $primary: hsl(222, 64%, 29%);
@@ -16,54 +17,18 @@ $link-focus-border: $link;
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
-  'white': (
-    $white,
-    $primary2
-  ),
-  'black': (
-    $black,
-    $white
-  ),
-  'light': (
-    $light,
-    $light-invert
-  ),
-  'dark': (
-    $dark,
-    $dark-invert
-  ),
-  'primary': (
-    $primary,
-    $primary-invert
-  ),
-  'primary2': (
-    $primary2,
-    $primary2-invert
-  ),
-  'info': (
-    $info,
-    $info-invert
-  ),
-  'success': (
-    $success,
-    $success-invert
-  ),
-  'warning': (
-    $warning,
-    $warning-invert
-  ),
-  'danger': (
-    $danger,
-    $danger-invert
-  ),
-  'twitter': (
-    $twitter,
-    $twitter-invert
-  ),
-  'link': (
-    $link,
-    $link-invert
-  )
+  'white': ($white, $primary2),
+  'black': ($black, $white),
+  'light': ($light, $light-invert),
+  'dark': ($dark, $dark-invert),
+  'primary': ($primary, $primary-invert),
+  'primary2': ($primary2, $primary2-invert),
+  'info': ($info, $info-invert),
+  'success': ($success, $success-invert),
+  'warning': ($warning, $warning-invert),
+  'danger': ($danger, $danger-invert),
+  'twitter': ($twitter, $twitter-invert),
+  'link': ($link, $link-invert)
 );
 
 $link: hsl(217, 71%, 53%);

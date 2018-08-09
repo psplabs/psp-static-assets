@@ -1,13 +1,7 @@
-FROM scratch
+FROM abiosoft/caddy
 
-COPY --from=filebrowser/dev /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
+WORKDIR /app
 
-VOLUME /tmp
-VOLUME /srv
-EXPOSE 80
+COPY Caddyfile /etc/Caddyfile
 
-COPY bin/filebrowser /filebrowser
-COPY config/config.json /config.json
-COPY dist /srv
-
-ENTRYPOINT ["/filebrowser", "--config", "/config.json"]
+ARG plugins=git
