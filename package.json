@@ -1,12 +1,12 @@
 {
   "name": "psp-static-assets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Perspectives official stylesheets, imaages, and other static assets.",
   "main": "src/psp-styles.sass",
   "scripts": {
     "build": "cp -Rf src/* dist/ && docker build -t pspusa/static .",
     "dev": "npm run build && npm run start",
-    "start": "docker run --rm -p 3001:2015 --name static pspusa/static"
+    "start": "docker run --rm -p 2015:2015 --name static pspusa/static"
   },
   "author": "",
   "license": "ISC",
